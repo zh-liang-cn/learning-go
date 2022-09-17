@@ -2,12 +2,15 @@
  * @Author: Liang zh.liang.cn@gmail.com
  * @Date: 2022-08-27 15:14:46
  * @LastEditors: Liang zh.liang.cn@gmail.com
- * @LastEditTime: 2022-08-27 16:41:39
+ * @LastEditTime: 2022-09-17 15:38:43
  * @Description: 实现FIFO队列，参考：https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm
  * 		实现 leetcode 上的队列、循环队列、双端循环队列的题目
  */
 package ds
 
+/**
+ * see https://www.yuque.com/benzhou/iyy4g4/wf4qxk
+ */
 type Queue interface {
 	Enque(e any) bool
 	Deque() bool
